@@ -1,7 +1,6 @@
 var http = require('http');
 var cheerio = require('cheerio');
 var iconv = require('iconv-lite');
-var url = 'http://www.zhihu.com/topic/19550901/questions?page=';
 iconv.skipDecodeWarning = true;
 var n =10;
 
